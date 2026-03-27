@@ -57,7 +57,7 @@
  
 <header>
   
-<img src="maymay.png">
+<img src="iii.jpg"style="display:block; margin:auto; border:3px solid black;" width="150">
 
   <h1>ROCHELLE A. JOSON</h1>
   <p>Web Developer | Designer | Student</p>
@@ -68,7 +68,7 @@
   <a href="file:///storage/emulated/0/folder%20ni%20rochelle/index.html">MIDTERM1: RESUME</a>
   <a href="file:///storage/emulated/0/Pictures/Exercise2.html">MIDTERM2: LIST AND TABLE</a>
   <a href="file:///storage/emulated/0/Pictures/Task4.html">MIDTERM3: TABLE AND HTML</a>
-  <a href="file:///storage/emulated/0/Pictures/task4imagemap.html">MIDTERM4: IMAGEMAP</a>
+  <a href="file:///storage/emulated/0/folder%20ni%20rochelle/images/map.html">MIDTERM4: IMAGEMAP</a>
   <a href="file:///storage/emulated/0/html/baby.html">MIDTERM5: APPLYING CSS TO UR RESUME</a>
   <a href="file:///storage/emulated/0/Pictures/6.html">MIDTEEM6: HTML LAYOUT USING DIVS AND SEMANTIC ELEMENTS</a>
   <a href="file:///storage/emulated/0/Pictures/task1final.html">FINALTASK1: RESPONSIVE LAYOUT USING FLEX</a>
@@ -106,7 +106,7 @@
    <div class="card">
       <h3>Project 4</h3>
       <p>Short description of your project.</p>
-      <a href="#">View Project</a><a href="file:///storage/emulated/0/Pictures/task4imagemap.html">Task4</a>
+      <a href="#">View Project</a><a href="file:///storage/emulated/0/folder%20ni%20rochelle/images/map.html">Task4</a>
     </div>
 
    <div class="card">
