@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms - Request for Proposal</title>
+</head>
+<body>
+
+    <h2>How can we help?</h2>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Request for Proposal</legend>
+
+            <table border="0">
+                <tr>
+                    <td>Your company:</td>
+                    <td><input type="text" name="company" size="20"></td>
+                </td>
+            
+
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" size="20"></td>
+                </tr>
+
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username" size="20"></td>
+                </tr>
+
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" size="20"></td>
+                </tr>
+
+                <tr>
+                    <td valign="top">Your business:</td>
+                    <td>
+                        <textarea name="business" rows="7" cols="23">
+Briefly describe your business in this space
+                        </textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td valign="top">Company Size:</td>
+                    <td>
+                        <input type="radio" name="size"> Less than 10 <br>
+                        <input type="radio" name="size"> 11 to 50 <br>
+                        <input type="radio" name="size"> 50 to 200 <br>
+                        <input type="radio" name="size"> Over 200
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Services:</td>
+                    <td>
+                        <input type="checkbox" name="service"> Brand Identity
+                        <input type="checkbox" name="service"> New Website
+                        <input type="checkbox" name="service"> Web Redesigner
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Timeline:</td>
+                    <td>
+                        <select name="timeline">
+                            <option>Immediately</option>
+                            <option>1-2 weeks</option>
+                            <option>3-6 weeks</option>
+                            <option>7-2 months</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">Send to dev/design</button>
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
