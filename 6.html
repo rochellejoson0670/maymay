@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Semantic Layout</title>
+
+<style>
+  
+  *{
+    box-sizing:border-box;
+  }
+
+body{
+margin:0;
+}
+
+header, footer{
+background-color:purple;
+height:80px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+nav{
+background-color:bisque;
+padding:10px;
+}
+
+nav ul li{
+display:inline;
+margin-right:20px;
+}
+
+aside{
+width:20%;
+float:left;
+padding:5px;
+}
+
+section{
+width:40%;
+float:left;
+padding:5px;
+}
+
+article{
+width:40%;
+float:left;
+padding:5px;
+}
+
+footer{
+clear:both;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>This is my Header</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="news">News</a></li>
+<li><a href="contact">Contact</a></li>
+<li><a href="about">About</a></li>
+</ul>
+</nav>
+
+<aside>
+<h2>This is Aside</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id suscipit diam, ac commodo lorem. Etiam ut tincidunt arcu. Maecenas lorem ipsum, tempus vitae turpis nec, laoreet lobortis mauris. Ut convallis mollis libero. Suspendisse vel accumsan magna, non ullamcorper augue. Aliquam mattis imperdiet dui. Duis sed mattis justo, ac malesuada est. Maecenas sagittis vitae velit quis auctor. Suspendisse potenti. Nulla eu diam vitae nunc bibendum pretium. Etiam quis lacus blandit, condimentum eros vitae, gravida mi. Duis est lacus, semper vitae orci porttitor, molestie scelerisque dolor. Ut a lobortis purus, vitae porttitor est. Maecenas at iaculis ipsum, ac condimentum nisi. Curabitur pharetra luctus leo, eget pellentesque nulla rhoncus at. In placerat ac turpis et semper. Praesent ante libero, porta rhoncus finibus in, porttitor non quam. Vestibulum convallis massa sem, nec suscipit elit elementum sit amet. Sed sed auctor purus. Curabitur eget risus nisi.</p>
+</aside>
+
+<section>
+  <h2>This is Section</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id suscipit diam, ac commodo lorem. Etiam ut tincidunt arcu. Maecenas lorem ipsum, tempus vitae turpis nec, laoreet lobortis mauris. Ut convallis mollis libero. Suspendisse vel accumsan magna, non ullamcorper augue. Aliquam mattis imperdiet dui. Duis sed mattis justo, ac malesuada est. Maecenas sagittis vitae velit quis auctor. Suspendisse potenti. Nulla eu diam vitae nunc bibendum pretium. Etiam quis lacus blandit, condimentum eros vitae, gravida mi. Duis est lacus, semper vitae orci porttitor, molestie scelerisque dolor. Ut a lobortis purus, vitae porttitor est. Maecenas at iaculis ipsum, ac condimentum nisi. Curabitur pharetra luctus leo, eget pellentesque nulla rhoncus at. In placerat ac turpis et semper. Praesent ante libero, porta rhoncus finibus in, porttitor non quam. Vestibulum convallis massa sem, nec suscipit elit elementum sit amet. Sed sed auctor purus. Curabitur eget risus nisi.</p>
+</section>
+
+<article>
+  <h2> This is Article </h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id suscipit diam, ac commodo lorem. Etiam ut tincidunt arcu. Maecenas lorem ipsum, tempus vitae turpis nec, laoreet lobortis mauris. Ut convallis mollis libero. Suspendisse vel accumsan magna, non ullamcorper augue. Aliquam mattis imperdiet dui. Duis sed mattis justo, ac malesuada est. Maecenas sagittis vitae velit quis auctor. Suspendisse potenti. Nulla eu diam vitae nunc bibendum pretium. Etiam quis lacus blandit, condimentum eros vitae, gravida mi. Duis est lacus, semper vitae orci porttitor, molestie scelerisque dolor. Ut a lobortis purus, vitae porttitor est. Maecenas at iaculis ipsum, ac condimentum nisi. Curabitur pharetra luctus leo, eget pellentesque nulla rhoncus at. In placerat ac turpis et semper. Praesent ante libero, porta rhoncus finibus in, porttitor non quam. Vestibulum convallis massa sem, nec suscipit elit elementum sit amet. Sed sed auctor purus. Curabitur eget risus nisi.</p>
+</article>
+
+<footer>
+<h2>This is Footer</h2>
+</footer>
+
+</body>
+</html>
