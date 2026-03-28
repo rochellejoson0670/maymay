@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Flex Layout</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        .header {
+            background: #16a085;
+            color: white;
+            padding: 20px;
+        }
+
+       
+        .container {
+            display: flex;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        
+        .nav {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .nav a {
+            padding: 10px;
+            background: #ddd;
+            margin-bottom: 5px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav a:first-child {
+            background: #16a085;
+            color: white;
+        }
+
+        
+        .main {
+            flex: 3;
+        }
+
+        
+        .sidebar {
+            flex: 1;
+            background: #3498db;
+            color: white;
+            padding: 10px;
+        }
+
+       
+        .footer {
+            background: #ccc;
+            padding: 10px;
+            margin: 10px;
+        }
+
+       
+        
+        @media (max-width: 900px) {
+            .container {
+                flex-wrap: wrap;
+            }
+
+            .nav {
+                flex: 1 1 30%;
+            }
+
+            .main {
+                flex: 1 1 65%;
+            }
+
+            .sidebar {
+                flex: 1 1 100%;
+            }
+        }
+
+        
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .nav, .main, .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="header">
+        <h1>Welcome to My Homepage</h1>
+        <p>Use the menu to select different Stylesheets</p>
+    </div>
+
+    <div class="container">
+
+        <div class="nav">
+            <a href="#">Stylesheet 1</a>
+            <a href="#">Stylesheet 2</a>
+            <a href="#">Stylesheet 3</a>
+            <a href="#">Stylesheet 4</a>
+            <a href="#">No Stylesheet</a>
+        </div>
+
+        <div class="main">
+            <h2>Same Page Different Stylesheets</h2>
+            <p>
+                This is a demonstration of how different stylesheets can change
+                the layout of your HTML page.
+            </p>
+
+            <h3>No Styles</h3>
+            <p>
+                This page uses DIV elements to group different sections of the HTML page.
+            </p>
+        </div>
+
+        <div class="sidebar">
+            <h3>Side-Bar</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+</body>
+</html>
