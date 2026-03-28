@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+         }
+         
+         body{margin: 0;}
+        header
+         {
+            background-color: rgb(165, 42, 42);
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer
+         {
+            background-color: rgb(165, 42, 42);
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+       ul
+        {
+            list-style-type: none;
+            background-color: rgb(248, 125, 116);
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+
+         li {float: left;}
+         li a
+        {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+         li a:hover
+        {
+            background-color: crimson;
+        }
+
+        aside
+        {
+            width: 20%;
+            float: left;
+        }
+
+         section
+        {
+            width: 40%;
+            float: left;
+            padding: 5px;
+        }
+
+        article
+        {
+            width: 40%;
+            float: left;
+             padding: 5px;
+        }
+
+        footer
+        {
+            clear: both;
+            padding: 5px;
+        }
+
+         @media screen and (max-width:800px)
+        {
+          aside,
+         section,
+         article
+              {
+               width: 100%;
+                float: none;
+              }
+        }
+
+    </style>
+    </head>
+<body>
+    
+
+    <header>
+        <h1> Welcome To My Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#news">news</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="#about">about</a></li>
+        </ul>
+    </nav>
+    
+    
+        <aside>
+             <h2>Aside</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur 
+              adipisicing elit. Eum ab eligendi voluptatum 
+              aperiam adipisci, modi esse.
+              Cum iste vero consectetur consequuntur,
+              voluptatum sapiente accusamus
+              voluptatem fugiat totam ex in libero
+             </p>
+     
+        </aside>
+        <section>
+            <h2>Section</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Eum ab eligendi voluptatum 
+                aperiam adipisci, modi esse.
+                Cum iste vero consectetur consequuntur,
+                voluptatum sapiente accusamus
+               voluptatem fugiat totam ex in libero.
+             </p>
+              
+              <p>Lorem ipsum dolor sit, amet consectetur 
+             adipisicing elit. Eum ab eligendi voluptatum 
+             aperiam adipisci, modi esse.
+             Cum iste vero consectetur consequuntur,
+              voluptatum sapiente accusamus
+              voluptatem fugiat totam ex in libero.
+              </p>
+        </section>
+
+        <article>
+               <h2>Article</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur 
+             adipisicing elit. Eum ab eligendi voluptatum 
+             aperiam adipisci, modi esse.
+             Cum iste vero consectetur consequuntur,
+             voluptatum sapiente accusamus
+             voluptatem fugiat totam ex in libero.</p>
+              
+              <p>Lorem ipsum dolor sit, amet consectetur 
+             adipisicing elit. Eum ab eligendi voluptatum 
+             aperiam adipisci, modi esse.
+             Cum iste vero consectetur consequuntur,
+              voluptatum sapiente accusamus
+              voluptatem fugiat totam ex in libero.</p>
+        </article>
+
+        <footer>
+             <h1>This is Footer</h1>
+        </footer>
+    
+
+    
+</body>
+</html>
