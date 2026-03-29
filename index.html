@@ -2,77 +2,153 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio | Rochelle Joson</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      background: beige;
+      background: #F5F5DC;
+      color: #333;
+      line-height: 1.6;
     }
+
     header {
-      background-color: beige;
-      color: white;
+      background-color: #F5F5DC;
+      color: #333;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header img {
+      display: block;
+      margin: 0 auto 15px auto;
+      border: 4px solid #FFC0CB;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 10px 0 5px 0;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin: 0;
+      color: #555;
+    }
+
+    nav {
+      background-color: #e87e90; 
       padding: 15px;
       text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
-    nav {
-      background-color: pink;
-      padding: 10px;
-      text-align: center;
-    }
+
     nav a {
       color: white;
-      margin: 0 10px;
+      margin: 0 12px;
       text-decoration: none;
+      font-weight: bold;
+      transition: opacity 0.3s ease;
     }
+
     nav a:hover {
       text-decoration: underline;
+      opacity: 0.8;
     }
+
     section {
-      padding: 20px;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
     }
+
+    h2 {
+      text-align: center;
+      color: #e87e90;
+      border-bottom: 2px solid #e87e90;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 30px;
+    }
+
+    #about, #projects, #contact {
+      text-align: center;
+    }
+
     .projects {
       display: flex;
-      gap: 50px;
+      gap: 30px;
       flex-wrap: wrap;
+      justify-content: center;
     }
+
     .card {
-      background-color: pink;
-      padding: 15px;
-      border-radius: 8px;
-      width: 350px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background-color: #FFC0CB;
+      padding: 25px 20px;
+      border-radius: 12px;
+      width: 300px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #fff;
+      background-color: #d16477;
+      padding: 8px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+
+    .card a:hover {
+      background-color: #b95264;
+    }
+
     footer {
       text-align: center;
-      padding: 30px;
-      background-color: beige;
+      padding: 20px;
+      background-color: #e87e90;
       color: white;
-      margin-top: 90px;
+      margin-top: 50px;
     }
   </style>
 </head>
 
 <body>
- 
-<header>
-  
-<img src="iii.jpg"style="display:block; margin:auto; border:3px solid black;" width="150">
 
+<header>
+  <img src="iii.jpg" alt="Profile Picture of Rochelle">
   <h1>ROCHELLE A. JOSON</h1>
   <p>Web Developer | Designer | Student</p>
 </header>
 
-
 <nav>
-  <a href="#">MIDTERM1: MIDTERM TASK 1: RESUME</a>
-  <a href="Exercise2.html">MIDTERM TASK 2: LIST AND TABLE</a>
-  <a href="mima.html">MIDTERM TASK 3: TABLE AND HTML</a>
-  <a href="task4imagemap.html">MIDTERM TASK 4: IMAGEMAP</a>
-  <a href="baby.html">MIDTERM TASK 5: APPLYING CSS TO UR RESUME</a>
-  <a href="task6.html">MIDTEEM6: HTML LAYOUT USING DIVS AND SEMANTIC ELEMENTS</a>
-  <a href="task1final.html">FINALTASK1: RESPONSIVE LAYOUT USING FLEX</a>
-  
+  <a href="#">MIDTASK 1</a>
+  <a href="Exercise2.html">MIDTASK 2</a>
+  <a href="mima.html">MIDTASK 3</a>
+  <a href="task4imagemap.html">MIDTASK 4</a>
+  <a href="baby.html">MIDTASK 5</a>
+  <a href="task6.html">MIDTASK 6</a>
+  <a href="task1final.html">FINALTASK 1</a>
 </nav>
 
 <section id="about">
@@ -85,58 +161,55 @@
   <div class="projects">
     
     <div class="card">
-      <h3>Project 1</h3>
-      <p>Short description of your project.</p>
-      <a href="">View Project</a><a href="task1.html">Task1</a>
+      <h3>Midterm Task 1</h3>
+      <p>Create your own resume and fill in the necessary data/information about you.</p>
+      <a href="task1.html">View Task 1</a>
     </div>
       
+    <div class="card">
+      <h3>Midterm Task 2</h3>
+      <p>HTML List and Tables</p>
+      <a href="Exercise2.html">View Task 2</a>
+    </div>
 
     <div class="card">
-      <h3>Project 2</h3>
-      <p>Short description of your project.</p>
-      <a href="#">View Project</a><a href="Exercise2.html">Task2</a>
+      <h3>Midterm Task 3</h3>
+      <p>HTML Forms</p>
+      <a href="mima.html">View Task 3</a>
     </div>
 
     <div class="card">
-      <h3>Project 3</h3>
-      <p>Short description of your project.</p>
-      <a href="#">View Project</a> <a href="mima.html">Task3</a>
+      <h3>Midterm Task 4</h3>
+      <p>Image Map</p>
+      <a href="task4imagemap.html">View Task 4</a>
     </div>
 
-   <div class="card">
-      <h3>Project 4</h3>
-      <p>Short description of your project.</p>
-      <a href="#">View Project</a><a href="task4imagemap.html">Task4</a>
+    <div class="card">
+      <h3>Midterm Task 5</h3>
+      <p>Applying CSS into your Resume</p>
+      <a href="baby.html">View Task 5</a>
     </div>
 
-   <div class="card">
-      <h3>Project 5</h3>
-      <p>Short description of your project.</p>
-      <a href="#">View Project</a><a href="baby.html">Task5</a>
+    <div class="card">
+      <h3>Midterm Task 6</h3>
+      <p>HTML Semantic Elements</p>
+      <a href="task6.html">View Task 6</a>
     </div>
 
-   <div class="card">
-      <h3>Project 6</h3>
-      <p>Short description of your project.</p>
-      <a href="#">View Project</a><a href="f6.html">Task6</a>
-    </div>
-
-
-   <div class="card">
+    <div class="card">
       <h3>Project 7</h3>
       <p>Short description of your project.</p>
-      <a href="#">View Project</a><a href="task1final.html">Task7</a>
+      <a href="task1final.html">View Project</a>
     </div>
-
 
   </div>
 </section>
 
 <section id="contact">
   <h2>Contact Me</h2>
-  <p>Email:rochellejoson919@gmail.com</p>
-  <p>Instagram:inc.maymay</p>
-  <p>No:639091461058</p>
+  <p>Email: rochellejoson919@gmail.com</p>
+  <p>Instagram: inc.maymay</p>
+  <p>No: 639091461058</p>
   <p>
     <a href="https://www.facebook.com/rochelleagustin.joson" target="_blank">Facebook</a> |
     <a href="#">LinkedIn</a>
@@ -144,7 +217,7 @@
 </section>
 
 <footer>
-  <p>© Rochelle Joson</p>
+  <p>© 2026 Rochelle Joson</p>
 </footer>
 
 </body>
