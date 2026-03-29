@@ -2,158 +2,102 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio | Rochelle Joson</title>
+  <title>JOSON | Portfolio</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Arial, sans-serif;
       margin: 0;
-      background: #F5F5DC;
-      color: #333;
-      line-height: 1.6;
+      background: beige;
     }
-
     header {
-      background-color: #F5F5DC;
-      color: #333;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    header img {
-      display: block;
-      margin: 0 auto 15px auto;
-      border: 4px solid #FFC0CB;
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-
-    header h1 {
-      margin: 10px 0 5px 0;
-      letter-spacing: 1px;
-    }
-
-    header p {
-      margin: 0;
-      color: #555;
-    }
-
-    nav {
-      background-color: #e87e90; 
+      background-color: beige;
+      color: white;
       padding: 15px;
       text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 100;
     }
-
+    nav {
+      background-color: pink;
+      padding: 10px;
+      text-align: center;
+    }
     nav a {
       color: white;
-      margin: 0 12px;
+      margin: 0 10px;
       text-decoration: none;
-      font-weight: bold;
-      transition: opacity 0.3s ease;
     }
-
     nav a:hover {
       text-decoration: underline;
-      opacity: 0.8;
     }
-
     section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: 0 auto;
+      padding: 20px;
     }
-
-    h2 {
-      text-align: center;
-      color: #e87e90;
-      border-bottom: 2px solid #e87e90;
-      display: inline-block;
-      padding-bottom: 5px;
-      margin-bottom: 30px;
-    }
-
-    #about, #projects, #contact {
-      text-align: center;
-    }
-
     .projects {
       display: flex;
-      gap: 30px;
+      gap: 50px;
       flex-wrap: wrap;
-      justify-content: center;
     }
-
     .card {
-      background-color: #FFC0CB;
-      padding: 25px 20px;
-      border-radius: 12px;
-      width: 300px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background-color: pink;
+      padding: 15px;
+      border-radius: 8px;
+      width: 350px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 15px rgba(0,0,0,0.1);
-    }
-
-    .card h3 {
-      margin-top: 0;
-      color: #333;
-    }
-
-    .card a {
-      display: inline-block;
-      margin-top: 10px;
-      color: #fff;
-      background-color: #d16477;
-      padding: 8px 15px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 0.9em;
-    }
-
-    .card a:hover {
-      background-color: #b95264;
-    }
-
     footer {
       text-align: center;
-      padding: 20px;
-      background-color: #e87e90;
+      padding: 30px;
+      background-color: beige;
       color: white;
-      margin-top: 50px;
+      margin-top: 90px;
     }
   </style>
 </head>
 
 <body>
-
+ 
 <header>
-  <img src="iii.jpg" alt="Profile Picture of Rochelle">
+  
+<img src="iii.jpg"style="display:block; margin:auto; border:3px solid black;" width="150">
+
   <h1>ROCHELLE A. JOSON</h1>
   <p>Web Developer | Designer | Student</p>
 </header>
 
+
 <nav>
-  <a href="task1.html">MIDTASK 1</a>
-  <a href="Exercise2.html">MIDTASK 2</a>
-  <a href="mima.html">MIDTASK 3</a>
-  <a href="task4imagemap.html">MIDTASK 4</a>
-  <a href="baby.html">MIDTASK 5</a>
-  <a href="task6.html">MIDTASK 6</a>
-  <a href="task1final.html">FINALTASK 1</a>
+  <a href="index.html">MIDTERM1: RESUME</a>
+  <a href="Exercise2.html">MIDTERM2: LIST AND TABLE</a>
+  <a href="Task4.html">MIDTERM3: TABLE AND HTML</a>
+  <a href="task4imagemap.html">MIDTERM4: IMAGEMAP</a>
+  <a href="baby.html">MIDTERM5: APPLYING CSS TO UR RESUME</a>
+  <a href="6.html">MIDTEEM6: HTML LAYOUT USING DIVS AND SEMANTIC ELEMENTS</a>
+  <a href="task1final.html">FINALTASK1: RESPONSIVE LAYOUT USING FLEX</a>
+  
 </nav>
 
 <section id="about">
   <h2>About Me</h2>
   <p>Hello! I am a hardworking and motivated student who enjoys learning new things, especially in technology and web development. I am dedicated, responsible, and always willing to improve my skills. In my free time, I enjoy spending time with my family and friends. I believe that patience and determination help me achieve my goals.</p>
+</section>
+  
+  
+  <section id="education">
+<h2>Education</h2>
+<ul>
+<li>Pampanga State Agricultural University</li>
+<li>Benigno Aquino National High School</li>
+<li>San francisco Cpn Elementary School</li>
+</ul>
+</section>
+
+    <section id="skills">
+<h2>Skills</h2>
+<ul style="list-style:none; padding-left:0;">
+  <li>💻 Basic Java</li>
+  <li>🌐 HTML</li>
+  <li>🎨 CSS</li>
+  <li>⏱️ Time Management</li>
+</ul>
 </section>
 
 <section id="projects">
@@ -161,56 +105,72 @@
   <div class="projects">
     
     <div class="card">
-      <h3>Midterm Task 1</h3>
-      <p>Create your own resume and fill in the necessary data/information about you.</p>
-      <a href="task1.html">View Task 1</a>
+      <h3>Midrterm Task 1</h3>
+      <p>Resume writing using HTML</p>
+      <a href="M1.jpg">View Source Code</a> <br>
+      <a href="I1.jpg">View Output Image</a> <br>
+      <a href="task1.html"> Sample SRC</a>
     </div>
       
+
     <div class="card">
-      <h3>Midterm Task 2</h3>
-      <p>HTML List and Tables</p>
-      <a href="Exercise2.html">View Task 2</a>
+        <h3>Midrterm Task 2</h3>
+        <p>HTML list and Table</p>
+        <a href="M2.jpg">View Source Code</a> <br>
+        <a href="I2.jpg">View Output Image</a> <br>
+        <a href="Exsercise2.html"> Sample SRC</a>
     </div>
 
     <div class="card">
-      <h3>Midterm Task 3</h3>
+      <h3>Midrterm Task 3</h3>
       <p>HTML Forms</p>
-      <a href="mima.html">View Task 3</a>
+      <a href="M3.jpg">View Source Code</a> <br>
+      <a href="I3.jpg">View Output Image</a> <br>
+      <a href="mima.html"> Sample SRC</a>
     </div>
 
-    <div class="card">
+   <div class="card">
       <h3>Midterm Task 4</h3>
       <p>Image Map</p>
-      <a href="task4imagemap.html">View Task 4</a>
-      
+      <a href="M4.jpg">View Source Code</a> <br>
+      <a href="I4.jpg">View Output Image</a> <br>
+      <a href="task4imagemap.html"> Sample SRC</a>
     </div>
 
-    <div class="card">
+   <div class="card">
       <h3>Midterm Task 5</h3>
-      <p>Applying CSS into your Resume</p>
-      <a href="baby.html">View Task 5</a>
+      <p>Applying CSS to Your Resume</p>
+      <a href="M5.jpg">View Source Code</a> <br>
+      <a href="I5.jpg">View Output Image</a> <br>
+      <a href="baby.html"> Sample SRC</a>
     </div>
 
-    <div class="card">
+   <div class="card">
       <h3>Midterm Task 6</h3>
-      <p>HTML Semantic Elements</p>
-      <a href="task6.html">View Task 6</a>
+      <p>HTML Layout Using Divs and Semantic Elements</p>
+      <a href="M6.jpg">View Source Code</a> <br>
+      <a href="I6.jpg">View Output Image</a> <br>
+      <a href="6.html"> Sample SRC</a>
     </div>
 
-    <div class="card">
+
+   <div class="card">
       <h3>Final Task 1</h3>
-      <p>Responsive Layout</p>
-      <a href="task1final.html">View Project</a>
+      <p>Responsive Layout Using Flexbox</p>
+      <a href="FI1.jpg">View Source Code</a> <br>
+      <a href="I7.jpg">View Output Image</a> <br>
+      <a href="task1final.html"> Sample SRC</a>
     </div>
+
 
   </div>
 </section>
 
 <section id="contact">
   <h2>Contact Me</h2>
-  <p>Email: rochellejoson919@gmail.com</p>
-  <p>Instagram: inc.maymay</p>
-  <p>No: 639091461058</p>
+  <p>Email:rochellejoson919@gmail.com</p>
+  <p>Instagram:inc.maymay</p>
+  <p>No:639091461058</p>
   <p>
     <a href="https://www.facebook.com/rochelleagustin.joson" target="_blank">Facebook</a> |
     <a href="#">LinkedIn</a>
@@ -218,7 +178,7 @@
 </section>
 
 <footer>
-  <p>© 2026 Rochelle Joson</p>
+  <p>© Rochelle Joson</p>
 </footer>
 
 </body>
